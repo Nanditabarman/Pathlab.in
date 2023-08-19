@@ -1,0 +1,270 @@
+.sm:hover{
+  color: blue;
+}
+.fa-brands{
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
+h4{
+  font-family: 'Jost', sans-serif;
+}
+h5{
+  font-family: 'Jost', sans-serif;
+}
+img{
+  cursor: pointer;
+}
+/* heaad */
+.head{
+  padding: 20px;
+  font-family: 'Jost', sans-serif;
+}
+.head p{
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
+}
+.sm-logo{
+  margin-left: 50px;
+}
+/* left-menu */
+.position-fixed{
+  z-index: 999;
+}
+/* icon ber left */
+.icon-bar {
+  position: fixed;
+  top: 80%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.icon-bar a{
+  font-size: 18px;
+  border-bottom: 2px solid blue;
+ border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.icon-bar span{
+  font-size: 12px;
+  font-weight: bold;
+}
+#navbarToggleExternalContent{
+    transform: translateX(-100%);
+    transition: transform .35s ease;
+    display: block;
+    height: 100%;
+    min-height: 100%;
+  }
+  
+  #navbarToggleExternalContent.menu-show{
+    transform: translateX(0%);
+  }
+  /*  nav-yellow */
+  .nav1{
+    background-color: rgb(255, 208, 0);
+  }
+  
+  .navbar-nav{
+  margin-left: 250px;
+  }
+  .nav-item{
+    color: rgb(0, 0, 170);
+  } 
+
+.fa-stethoscope{
+  color: rgb(0, 0, 170);
+}
+.fa-map-marker-alt{
+  color: rgb(0, 0, 170);
+}
+.blue{
+  background-color: rgb(0, 40, 169);
+}
+.b-left{
+  border-left: 1px solid orangered;
+  cursor: pointer;
+}
+.b-left img{
+  transition: 1s all ease-in-out;
+}
+.b-left:hover img{
+transform: scale(1.2);
+transition: 1s all ease-out;
+}
+.input{
+  border-bottom: 2px solid rgb(25, 86, 208);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.slide-box{
+  display: flex;
+}
+.btn-a{
+  transform: translateY(-100px);
+}
+.cream{
+  background-color: rgb(233, 229, 229);
+}
+/* container box blue */
+.container-box{
+  border-radius: 25px;
+  transform: translateY(-60px);
+}
+/*  */
+.b-left2{
+  border-left: 1px solid rgb(255, 217, 0);
+}
+.container-box1 {
+  border-radius: 25px;
+}
+.card1{
+  width: 350px;
+  height: 300px;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card h5{
+  border-bottom: 1px solid black;
+}
+.next-p{
+  margin-left: 100px;
+}
+.rows h4{
+color: rgb(3, 74, 189);
+}
+.redias{
+  border-radius: 18px;
+  transition: 1s all ease-in-out;
+}
+.redias img:hover {
+ transform: scale(0.9);
+
+}
+.footer{
+background-image:linear-gradient(rgba(250, 208, 42, 0.8),rgba(247, 205, 39, 0.8)),url(image/footer.jpg);
+background-position: center;
+background-size: cover;
+}
+.footer a{
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+}
+.footer p{
+  transition: 0.5s all ease-in-out;
+}
+.footer p:hover{
+  transform: scale(1.1);
+}
+.footer-b{
+  background-color: rgb(0, 40, 169);;
+}
+.fix-btn{
+  margin-right: 20px;
+}
+
+/* collapes */
+.faq-section .mb-0 > a {
+  display: block;
+  position: relative;
+
+}
+.faq-section .mb-0 > a:after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  right: 0;
+  font-weight: 600;
+}
+.faq-section .mb-0 > a[aria-expanded="true"]:after {
+  content: "\f077";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+}
+@media screen and (max-width: 913px){
+  .head{
+    font-size: 12px;
+    overflow: hidden;
+  }
+  .blue img{
+    width: 60px;
+  }
+  .blue h5{
+    font-size: 15px;
+  }
+ .rows h4{
+  font-size:15px;
+ }
+ .rows img{
+  width: 40px;
+ } 
+}
+
+  @media screen and (max-width: 415px){
+    .nav1 {
+        display: none;
+    }
+  .head{
+    padding: 5px;
+  }
+  .sm-logo{
+    width: 90px;
+     }
+    .head .row{
+     margin-right: -15px;
+     margin-left:-15px;
+    }
+    
+    .blue img{
+      width: 50px;
+    }
+    .blue h5{
+     font-size: 13px;
+    }
+    .sm{
+      display: none;
+    }
+   .sm-r{
+    font-size: 15px;
+   }
+  .footer p{
+  line-height: 8px;
+  }
+ .input2{
+  border-radius: 7px;
+  border: 1px solid yellow;
+ }
+ ul li{
+  list-style: none;
+ }
+ .nav-link i{
+  font-size: 30px;
+ }
+ .fix-btn{
+  width: 100%;
+  margin-bottom: -10px;
+  margin-right: 0px;
+ }
+ .icon-bar{
+  display: none;
+ }
+ .chosen{
+  transition: 1s all ease-in-out;
+ }
+ .navbar{
+  height: 65px;
+ }
+ .imgs{
+  width: 35px;
+}
+.btn-a{
+  transform: translateY(-70px);
+}
+  }
